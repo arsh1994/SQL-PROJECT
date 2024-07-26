@@ -72,23 +72,7 @@ WHERE YEAR(SO.OrderDate)=2011
 GROUP BY MONTH(SO.OrderDate)
 ORDER BY [total profit in may]
 
---QUESTION 6
 
-
-SELECT * FROM Sales.SalesOrderDetail
-select * from sales.SalesOrderHeader
-select * from sales.SalesTaxRate
-select * from sales.SalesTerritory
-select * from sales.Store
-select * from sales.SalesPerson
-SELECT * FROM SALES.Customer
-
-SELECT * FROM PERSON.Person
-WHERE FirstName='Gustavo'
-and
-LastName='Achong'
-
-select * from person.ContactType
 
 
 
